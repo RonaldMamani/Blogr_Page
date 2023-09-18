@@ -14,7 +14,7 @@ export default function NavBarDesk() {
     const [openConnect, setOpenConnect] = useState(false)
 
     return (
-        <div className="flex justify-between items-center relative max-[1023px]:hidden">
+        <div className="flex justify-between gap-16 items-center relative max-[1023px]:hidden">
             <div className="flex justify-between gap-20">
                 <div>
                     <button className="

@@ -6,7 +6,9 @@ import Title from "../Texts/Title";
 export default function Intro() {
     return (
         <section className="bg-gradient-to-r from-[#FF8F71] to-[#FF3E55] h-screen rounded-bl-large">
-            <div className="bg-introMob bg-center h-screen rounded-bl-large lg:bg-introDesk">
+            <div className="
+                bg-[url('./assets/bg-pattern-intro-mobile.svg')] bg-center h-screen rounded-bl-large 
+                lg:bg-[url('./assets/bg-pattern-intro-desktop.svg')]">
                 <div className=" flex flex-col gap-5 text-center ">
                     <Header />
                     <div className="

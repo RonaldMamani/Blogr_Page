@@ -7,7 +7,9 @@ export default function LaptopFeatures() {
             md:p-10
             lg:p-32 lg:grid-cols-2 lg:grid-rows-1
             ">
-            <div className="bg-iluLaptopMob bg-cover bg-center bg-no-repeat lg:bg-iluLaptopDesk"></div>
+            <div className="
+                bg-[url('./assets/illustration-laptop-mobile.svg')] bg-cover bg-center bg-no-repeat 
+                lg:bg-[url('./assets/illustration-laptop-desktop.svg')]"></div>
             <div className="flex flex-col gap-7 text-center">
                 <TextLittle
                     title="Free, open, simple" 

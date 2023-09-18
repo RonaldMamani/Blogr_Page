@@ -13,7 +13,9 @@ export default function Descrition() {
                 grid grid-rows-2 gap-5
                 lg:grid-cols-2 lg:grid-rows-1
                 ">
-                <div className="bg-iluEditorMob bg-cover bg-center lg:bg-iluEditorDesk lg:order-2"></div>
+                <div className="
+                    bg-[url('./assets/illustration-editor-mobile.svg')] bg-cover bg-center 
+                    lg:bg-[url('./assets/illustration-editor-desktop.svg')] lg:order-2"></div>
                 <div className="flex flex-col gap-7 lg:order-1 lg:pt-20">
                     <TextLittle 
                         title="Introducing an extensible editor"
