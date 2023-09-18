@@ -16,11 +16,11 @@ export default function NavBar() {
     const [openConnect, setOpenConnect] = useState(false)
 
     return (
-        <div className="relative">
+        <div className="relative lg:hidden">
             <button onClick={() => {setOpen(!open)}}>
                 {open ? (
                     <>
-                        <img className="" src={Close} alt="" />
+                        <img src={Close} alt="" />
                     </>
                 ) : (
                     <>
@@ -35,7 +35,7 @@ export default function NavBar() {
                         {openProduct ? (
                             <>
                                 <TextCommon className="text-lg text-[#1F3E5A] pl-2 font-semibold" text="Product" />
-                            <img className="pt-2" src={ArrowTop} alt="" />
+                                <img className="pt-2" src={ArrowTop} alt="" />
                             </>
                         ) : (
                             <>
@@ -94,8 +94,14 @@ export default function NavBar() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-3">
-                    <Button className="px-4 py-3 rounded-full bg-white text-[#1F3E5A] border-2 border-[#FF505C] text-lg font-bold" content="Login" />
-                    <Button className="px-4 py-3 rounded-full bg-gradient-to-r from-[#FF8F71] to-[#FF3E55] text-white text-lg font-bold" content="Sign Up" />
+                    <Button className="
+                        px-4 py-3 rounded-full bg-slate-50 text-[#1F3E5A] border-2 border-[#FF505C] text-lg font-bold
+                        hover:bg-[#FF7B86] hover:text-slate-50 transition-colors
+                        " content="Login" />
+                    <Button className="
+                        px-4 py-3 rounded-full bg-gradient-to-r from-[#FF8F71] to-[#FF3E55] text-slate-50 text-lg font-bold
+                        hover:text-yellow-300 transition-colors
+                        " content="Sign Up" />
                 </div>
             </div>
         </div>

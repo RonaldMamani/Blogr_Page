@@ -17,6 +17,9 @@ export default {
       },
       borderRadius: {
         'large': '4.5rem'
+      },
+      fontSize: {
+        '4.5xl': '2.5rem'
       }
     },
   },

@@ -8,6 +8,7 @@ export default function Footer() {
             <div className="
                 flex flex-col gap-10 py-28
                 md:px-10 md:grid md:grid-cols-4
+                lg:px-32
                 ">
                 <img className="w-32 max-[767px]:m-auto" src={logo} alt="Logotipo Blogr" />
                 <div className="flex flex-col gap-2 text-center">

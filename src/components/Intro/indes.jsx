@@ -6,7 +6,7 @@ import Title from "../Texts/Title";
 export default function Intro() {
     return (
         <section className="bg-gradient-to-r from-[#FF8F71] to-[#FF3E55] h-screen rounded-bl-large">
-            <div className="bg-introMob bg-center h-screen rounded-bl-large">
+            <div className="bg-introMob bg-center h-screen rounded-bl-large lg:bg-introDesk">
                 <div className=" flex flex-col gap-5 text-center ">
                     <Header />
                     <div className="
@@ -18,11 +18,16 @@ export default function Intro() {
                             <TextCommon className="text-white text-xl" text="Grow your audience and build your online brand" />
                         </div>
                         <div className="
-                            flex gap-4
-                            md:justify-center 
+                            flex gap-5 justify-center
                             ">
-                            <Button className="px-4 py-3 rounded-full bg-white text-[#FF505C] text-lg font-bold" content="Start for Free" />
-                            <Button className="px-4 py-3 rounded-full border-white border-2 text-white text-lg font-bold" content="Learn More" />
+                            <Button className="
+                                px-4 py-3 rounded-full bg-slate-50 text-[#FF505C] text-lg font-bold
+                                hover:bg-[#FF7B86] hover:text-slate-50 transition-colors
+                                " content="Start for Free" />
+                            <Button className="
+                                px-4 py-3 rounded-full text-slate-50 font-bold border-2
+                                hover:bg-white hover:text-[#FF505C] transition-colors
+                                " content="Learn More" />
                         </div>
                     </div>
                 </div>
