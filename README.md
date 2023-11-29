@@ -2,6 +2,11 @@
 # Blogr
 
 Projeto de Site baseado em Landing Page, onde é baseado em um site comercial utilizando diversas seções na pagina sobre as features do produto, o site é totalmente responsivo para diversas telas, como Desktop, Tablet e Mobile.
+
+## Imagens
+
+![Blogr](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Screenshots/f3kxf3sfjd7eebdasup2.jpg)
+
 ## Stack utilizada
 
 **Front-end:** ReactJS, JavaScript, Vite, TailwindCSS, HTML, CSS
